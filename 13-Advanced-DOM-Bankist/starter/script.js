@@ -29,3 +29,11 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+///////////////
+const header = document.querySelector('.header')
+const allsections = document.querySelectorAll('.section')
+const allbtns = document.getElementsByTagName("button")
+document.querySelector(".operations__tab--1").remove();
+document.getElementById("section--1").remove();
+console.log(allbtns);
+console.log(allsections);
